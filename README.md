@@ -1,15 +1,14 @@
 # SERVICIOS_SR
 
-Buenas 
+Buenas tardes
 
 Quiero que os apunteis todos en este fichero 
 
 NOMBRE Y APELLIDO Y VUESTRO GIT
-
-Ivan Kutsenko (Belfegohr)
-
-
-UN SALUDO 
+Álaro Gómez alvarobaroja
+Alan Shelemen | gatoencerradoensucasa
+Stefano Gonzalez
+UN SALUDO GUAPISIMO777
 
 
 
