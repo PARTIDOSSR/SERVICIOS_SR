@@ -8,6 +8,7 @@ NOMBRE Y APELLIDO Y VUESTRO GIT
 Álaro Gómez alvarobaroja
 Alan Shelemen | gatoencerradoensucasa
 Stefano Gonzalez
+Guanyu Ji
 <<<<<<< HEAD
 
 
