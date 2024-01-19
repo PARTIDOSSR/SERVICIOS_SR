@@ -1,13 +1,13 @@
 # SERVICIOS_SR
 
-Buenas 
+Buenas tardes
 
 Quiero que os apunteis todos en este fichero 
 
 NOMBRE Y APELLIDO Y VUESTRO GIT
+Álaro Gómez alvarobaroja
 
-
-UN SALUDO 
+UN SALUDO GUAPISIMO777
 
 
 
