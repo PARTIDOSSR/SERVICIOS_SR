@@ -9,6 +9,7 @@ NOMBRE Y APELLIDO Y VUESTRO GIT
 Alan Shelemen | gatoencerradoensucasa
 Stefano Gonzalez
 Guanyu Ji
+Jose Alberto
 Iván kutsenko (Belfegohr)
 <<<<<<< HEAD
 
