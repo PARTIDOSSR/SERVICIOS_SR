@@ -1,0 +1,10 @@
+Se clonar repositorios, crear archivos.
+
+Se hacer un git add, git commit, Push/Pull, git diff tambien actualmente todos los comandos que hemos dado hasta ahora sabria hacerlos pero el git diff me dio problemas porque en teoria no tenia un git init creado
+git add para añadir
+git commit para realizar cambios
+git push para subir cosas
+git pull para bajar archivos
+Tambien sabria hacer los 3 tipos de merge Squash, Merge rebase, merge fast forward/commit
+
+Crear nuevas branches 
