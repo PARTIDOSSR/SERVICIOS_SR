@@ -1,0 +1,13 @@
+Hola a todos.
+El uso de github sirve para registro de versiones de un proyecto en repositorios, para mi personalmente el uso de github
+en la web es realmente facil porque es intuitiva, lo malo es que debes saber un poco de ingles, tambien permite hacer
+pull request de 3 formas distintas. 
+-Merge commit. Es como si squash y rebase se juntaran.
+-squash and merge. Solo se muestra 1 commit en el historial pero dentro se mostrara todos los cambios.
+-rebase and merge. Se mostraran los cambios uno por uno.
+La creacion de repositorios en codigo se dificulto porque no sabia los comando de github!!
+Use los siguientes comando:
+-git add. Es para confirmar.
+-git commit. Sirve para subirlo al local.
+-git push. Sirve para subir todo a la nube.
+Todo bien!!!
