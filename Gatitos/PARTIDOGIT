@@ -1,0 +1,23 @@
+HOLA, MI NOMBRE ES ALAN
+En esta unidad hemos aprendido GitHub en interfaz
+Hemos dado:
+-Como clonar un repositorio: Git Clone
+-Como crear directorios usando Visual Studio
+-Git pull (traer el repositorio)
+-Git Push (subir los cambios)
+-Git commit, hacer un cambio
+-Los diferentes estados:
+	Espacio de trabajo: Lo que vemos en Visual
+	Staging: La fase de pre-subida al local
+	Local Repository: Repositorio clonado
+	Remote: El repositorio orignial (para llegar a este solo un push)
+-Los tipos de hacer reversa:
+	Reverb
+	Reset
+	El otro que es como reset pero con historial.
+-Hacer pull requests con diferetes opciones:
+	-Merge commmit: Un tipo de squash de rebases
+	-Squash: Todos los cambios son uno
+	-Rebase: Todos lo cambios se ponen en orden de llegada individualmente.
+-Hacer branches en la interfaz, en bash no.
+-Ver el historial
