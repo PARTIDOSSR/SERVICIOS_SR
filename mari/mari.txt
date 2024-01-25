@@ -1,0 +1,15 @@
+Crear un repositorio nuevo:
+- Para crear un nuevo repositorio git init
+- O por interfaz: botón + y luego New repository
+
+Registrar cambios añadirlos al index usando git add <nombrefichero>
+- Y para un commit con un mensaje incluido: git commit -m "Commit message"
+
+Enviar cambios que están en el HEAD al repositorio git push origin <rama>
+
+Las ramas son utilizadas para desarrollar funcionalidades aisladas unas de otras.
+- La rama master es la rama por defecto cuando se crea un repositorio
+
+Actualizar el repositorio local al commit más nuevo git pull
+
+En el directorio de trabajo para bajar y fusionar los cambios remotos git merge <branch>

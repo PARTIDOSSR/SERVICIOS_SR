@@ -1,2 +1,26 @@
-HOLAAAAAA
-me llamo piscis, tengo alex y soy 23
+Lo que hemos visto estos días ha sido un uso básico de GitHub utilizando tanto como la interfaz como también usando Git Bash.
+Estos días hemos aprendido a añadir y modificar archivos y/o carpetas directamente en la rama main de nuestro repositorio, o crear una nueva rama para, posteriormente una vez terminado poder sobreponer la nueva versión sobre una antigua sin borrar esta la cual podremos revertir en cualquier momento si lo deseamos.
+Las ramas se utilizan para poder trabajar en equipo y que cada uno al finalizar pueda aplicar todos los cambios sobre una única (main).
+Hemos aplicado dichas versiones (commits) de las 3 maneras que existen:
+    - Merge and commit, la cual aplicará todos los cambios uno por uno, y creará un "grupo" donde aparecerán todos los cambios que hayamos hecho.
+    - Merge squash, cogerá todos los cambios que hayamos hecho y aplicará el último dando únicamente la opción de revertir el ÚLTIMO cambio sin posibilidad de revertir los cambios anteriores a este.
+    - Merge and rebase, aplicará los cambios uno a uno con posibilidad de revertir cualquiera de estos.
+Hemos clonado repositorios (remote) para poder ver todo lo que haya en este en nuestro equipo (local), hecho un push (mandar los cambios desde un equipo local al repositorio remoto) y por último pull (traer cambios que se hayan hecho sobre un archivo que no hayamos hecho nosotros)
+
+Al nosotros crear o modificar un archivo localmente se guardará LOCALMENTE siempre que guardemos el archivo, para poder posteriormente meter dichos archivos en un estado de staging (el cual meterá el archivo en un modo donde está esperando a ser confirmado para pasar el contenido nuevo al repositorio remoto), una vez este sea aceptado por el administrador (si este existe) se verá tanto en el repositorio remoto como en el local.
+
+Comandos vistos
+git init
+git branch
+git add
+git pull
+git close
+git remote
+git push
+git commit -a -m "XXXX"
+git config
+git status
+git diff
+    - Para declarar el usuario de GitHub que se usará
+git config --global user.name
+git config --global user.email

@@ -1,1 +1,9 @@
-
+Las cosas que hemos aprendido estas dos semanas son:
+Durante las últimas dos semanas hemos:
+Añadir cambios: El comando "add" para añadir cosas nuevas al proyecto.
+Guardar cambios: El comando commit "commit" para guardar todos mis cambios.
+Enviar y Traer: Con "push" para mandar mis cambios y "pull" para traer los cambios de los demás.
+Copiar y Juntar cambios: Aprendí a copiar proyectos con un truco en Visual Studio y a combinar cambios con los "pull requests" para que todo encaje.
+Dar marcha atrás: Si algo sale mal, sé cómo volver en el tiempo con "reset" y "revert".
+Probar cosas nuevas sin romper nada: Gracias a las "ramas".
+Revisar y aprobar cambios: Con los "pull requests".
