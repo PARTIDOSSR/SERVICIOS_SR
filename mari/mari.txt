@@ -1,6 +1,6 @@
 Crear un repositorio nuevo:
 - Para crear un nuevo repositorio git init
-- O por interfaz: botón + y luego New Request
+- O por interfaz: botón + y luego New repository
 
 Registrar cambios añadirlos al index usando git add <nombrefichero>
 - Y para un commit con un mensaje incluido: git commit -m "Commit message"
