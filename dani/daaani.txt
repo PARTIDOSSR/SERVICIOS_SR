@@ -1,0 +1,2 @@
+Se hacer un add, un commit un push, un pull y un diff, aunque el diff no me funcionó en gitbash.
+El reset file y reset commit no los probé aun.
