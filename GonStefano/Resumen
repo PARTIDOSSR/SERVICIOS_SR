@@ -10,4 +10,5 @@ Use los siguientes comando:
 -git add. Es para confirmar.
 -git commit. Sirve para subirlo al local.
 -git push. Sirve para subir todo a la nube.
+-git pull. Sirve para actualizar el repositorio local de la nube.
 Todo bien!!!
