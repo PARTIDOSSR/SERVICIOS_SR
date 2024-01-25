@@ -1,1 +1,4 @@
-uoooo
+Para crear una rama le damos a add new file ponemos el nombre y le damos a commit changes y dentro del botón le damos a la segunda opción de create new branch y luego darle a create pull request. 
+En la opcion de squash and merge se juntan los archivos todos en uno
+En la opcion de rebase and merge se ponen todos uno a uno
+Pero no sé exactamente cual es el create a merge commit Para subir este archivo le damos a la tercera opción de visual studio y le damos al más y a commit
