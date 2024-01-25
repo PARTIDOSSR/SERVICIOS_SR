@@ -1,0 +1,15 @@
+En github he aprendido lo siguiente:
+
+1. Como hacer un add o mejor dicho añadir un archivo a tu repositorio.
+2. Como hacer un commit que consiste en subir un archivo o lo que sea para que se guarde.
+3. Para que se vea la carpeta dentro del repositorio si o si tiene q tener un archivo dentro si no no se vera.
+4. Hacer un push que consiste en pasar tu trabajo por ejemplo este de visual studio a el repositorio remoto.
+5. Tambien como hacer un pull, que consiste en pasar el codigo q esta en el repositorio a el local.
+6. Para hacer un pull lo unico que tenemos que hacer es copiar el codigo del repositorio y clonarlo en visul studio con la extension.
+7. Como hacer un reset que consiste en volver al antiguo trabajo sin dejar rasto.
+8. Como hacer un revert que es es lo mismo que el reset pero dejando rastro de tu movimiento.
+9. Hacedr una branch (rama) que sirve para cambiar un archivo pero manteniendo el archivo base para poder ver varias opciones sin perder la principal.
+10. Desde github podemos hacer nuestro codigo en equipo y poder subirlo y restaurarlo sin ningun problema.
+11. Podemos dar permisos para hacer ramas y editar a las personas que queramos mediante invitacion.
+12. Podemos ver todos los cambios dando a pull request.
+13. Podemos tener varios repositorios distintos al mismo tiempo.
