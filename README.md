@@ -18,9 +18,6 @@ Topcoder: Una comunidad de crowdsourcing en línea con más de 1 millón de desa
 
 CONFERENCIAS DE CYBERSEGURIDAD Y EVENTOS
 
-
-ESPAÑA
-
 NAVAJANEGRA - OCTUBRE 
 
 ROOTEDCON Es uno de los eventos de ciberseguridad más importantes en España. En 2023, se celebró en Madrid del 9 al 11 de marzo. 
