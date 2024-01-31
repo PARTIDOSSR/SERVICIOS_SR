@@ -1,286 +1,842 @@
-Markdown Here Cheatsheet
-Adam Pritchard edited this page on Oct 27, 2017 · 11 revisions
-This is intended as a quick reference and showcase. For more complete info, see John Gruber's original spec and the Github-flavored Markdown info page.
+<a name="top"/>
 
-This cheatsheet is specifically Markdown Here's version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a Markdown Here email, but it should be pretty close.
 
-You can play around with Markdown on our live demo page.
+- [Headings](#headings)
+- [Heading 1](#heading-1)
+	* [Heading 2](#heading-2)
+		+ [Heading 3](#heading-3)
+			- [Heading 4](#heading-4)
+				* [Heading 5](#heading-5)
+- [Heading 1](#heading-1)
+	* [Heading 2](#heading-2)
+		+ [Heading 3](#heading-3)
+			- [Heading 4](#heading-4)
+				* [Heading 5](#heading-5)
+- [Heading 1](#heading-1)
+	* [Heading 2](#heading-2)
+- [Text styles](#text-styles)
+- [Syntax Highlighting](#syntax-highlighting)
+- [Alignments](#alignments)
+- [Tables](#tables)
+- [Links](#links)
+- [Images](#images)
+- [Lists](#lists)
+- [Buttons](#buttons)
+- [Horizontal Rule](#horizontal-rule)
+- [Miscellaneous](#miscellaneous)
+- [Hash symbol](#hash-symbol)
 
-(If you're not a Markdown Here user, check out the Markdown Cheatsheet that is not specific to MDH. But, really, you should also use Markdown Here, because it's awesome. http://markdown-here.com)
 
-Table of Contents
-Headers
-Emphasis
-Lists
-Links
-Images
-Code and Syntax Highlighting
-Tables
+# Headings
+
+```
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+```
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+
+```
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+```
+
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+
+Heading 1
+=
+Heading 2
+-
+
+# Text styles
+
+```
+Bold
+**The quick brown fox jumps over the lazy dog.**
+__The quick brown fox jumps over the lazy dog.__
+<strong>The quick brown fox jumps over the lazy dog.</strong>
+Italic
+*The quick brown fox jumps over the lazy dog.*
+_The quick brown fox jumps over the lazy dog._
+<em>The quick brown fox jumps over the lazy dog.</em>
+Bold and Italic
+**_The quick brown fox jumps over the lazy dog._**
+<strong><em>The quick brown fox jumps over the lazy dog.</em></strong>
+```
+
+The quick brown fox jumps over the lazy dog.
+
+Bold
+
+**The quick brown fox jumps over the lazy dog.**
+
+__The quick brown fox jumps over the lazy dog.__
+
+<strong>The quick brown fox jumps over the lazy dog.</strong>
+
+
+Italic
+
+*The quick brown fox jumps over the lazy dog.*
+
+_The quick brown fox jumps over the lazy dog._
+
+<em>The quick brown fox jumps over the lazy dog.</em>
+
+Bold and Italic
+
+**_The quick brown fox jumps over the lazy dog._**
+
+<strong><em>The quick brown fox jumps over the lazy dog.</em></strong>
+
 Blockquotes
-Inline HTML
-Horizontal Rule
-Line Breaks
-YouTube Videos
-TeX Mathematical Formulae
 
-Headers
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-======
-
-Alt-H2
-------
-H1
-H2
-H3
-H4
-H5
-H6
-Alternatively, for H1 and H2, an underline-ish style:
-
-Alt-H1
-Alt-H2
-Emphasis
-Emphasis, aka italics, with *asterisks* or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-Emphasis, aka italics, with asterisks or underscores.
-
-Strong emphasis, aka bold, with asterisks or underscores.
-
-Combined emphasis with asterisks and underscores.
-
-Strikethrough uses two tildes. Scratch this.
-
-Lists
-1. First ordered list item
-2. Another item
-  * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.  
-   
-   Some text that should be aligned with the above item.
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-First ordered list item
-Another item
-Unordered sub-list.
-Actual numbers don't matter, just that it's a number
-
-Ordered sub-list
-
-And another item.
-
-Some text that should be aligned with the above item.
-
-Unordered list can use asterisks
-Or minuses
-Or pluses
-Links
-There are two ways to create links.
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-I'm an inline-style link
-
-I'm a reference-style link
-
-You can use numbers for reference-style link definitions
-
-Or leave it empty and use the link text itself
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com or http://www.example.com and sometimes example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-Images
-Here's our logo (hover to see the title text):
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style: 
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-Here's our logo (hover to see the title text):
-
-Inline-style: alt text
-
-Reference-style: alt text
-
-Code and Syntax Highlighting
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and Markdown Here -- support syntax highlighting. Markdown Here supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the highlight.js demo page.
-
-Inline `code` has `back-ticks around` it.
-Inline code has back-ticks around it.
-
-Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
 ```
- 
-```python
-s = "Python syntax highlighting"
-print s
+> The quick brown fox jumps over the lazy dog.
+> The quick brown fox jumps over the lazy dog.
+> 
+> The quick brown fox jumps over the lazy dog.
+> 
+> The quick brown fox jumps over the lazy dog.
+> The quick brown fox jumps over the lazy dog.
+>> The quick brown fox jumps over the lazy dog.
+>>> The quick brown fox jumps over the lazy dog.
+> **The quick brown fox** *jumps over the lazy dog.*
 ```
- 
+
+> The quick brown fox jumps over the lazy dog.
+
+> The quick brown fox jumps over the lazy dog.
+> 
+> The quick brown fox jumps over the lazy dog.
+> 
+> The quick brown fox jumps over the lazy dog.
+
+> The quick brown fox jumps over the lazy dog.
+>> The quick brown fox jumps over the lazy dog.
+>>> The quick brown fox jumps over the lazy dog.
+
+> **The quick brown fox** *jumps over the lazy dog.*
+
 ```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
+Monospaced
+<samp>The quick brown fox jumps over the lazy dog.</samp>
+
+Underlined
+<ins>The quick brown fox jumps over the lazy dog.</ins>
+
+Strike-through
+~~The quick brown fox jumps over the lazy dog.~~
 ```
-var s = "JavaScript syntax highlighting";
-alert(s);
-s = "Python syntax highlighting"
-print s
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-But let's throw in a <b>tag</b>.
-Again, to see what languages are available for highlighting, and how to write those language names, see the highlight.js demo page.
 
-Tables
-Tables aren't part of the core Markdown spec, but they are part of GFM and Markdown Here supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+Monospaced
 
-Colons can be used to align columns.
+<samp>The quick brown fox jumps over the lazy dog.</samp>
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+Underlined
 
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+<ins>The quick brown fox jumps over the lazy dog.</ins>
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-Colons can be used to align columns.
+Strike-through
 
-Tables	Are	Cool
-col 3 is	right-aligned	$1600
-col 2 is	centered	$12
-zebra stripes	are neat	$1
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+~~The quick brown fox jumps over the lazy dog.~~
 
-Markdown	Less	Pretty
-Still	renders	nicely
-1	2	3
-Blockquotes
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+```
+Boxed
+<table><tr><td>The quick brown fox jumps over the lazy dog.</td></tr></table>
+```
 
-Quote break.
+Boxed
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
-Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
+<table><tr><td>The quick brown fox jumps over the lazy dog.</td></tr></table>
 
-Quote break.
 
-This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can put Markdown into a blockquote.
+```
+2 <sup>53-1</sup> and -2 <sup>53-1</sup> 
+```
 
-Inline HTML
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
+2 <sup>53-1</sup> and -2 <sup>53-1</sup> 
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+```
+Subscript <sub>The quick brown fox jumps over the lazy dog.</sub>
+Superscript <sup>The quick brown fox jumps over the lazy dog.</sup>
+```
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-Definition list
-Is something people use sometimes.
-Markdown in HTML
-Does *not* work **very** well. Use HTML tags.
-Horizontal Rule
-Three or more...
+Subscript <sub>The quick brown fox jumps over the lazy dog.</sub>
+
+Superscript <sup>The quick brown fox jumps over the lazy dog.</sup>
+
+
+
+# Syntax Highlighting
+
+A class method is an instance method of the class object. When a new class is created, an object of type `Class` is initialized and assigned to a global constant (Mobile in this case).
+
+
+```
+public static String monthNames[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+```
+
+
+```java
+public static String monthNames[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+```
+
+# Alignments
+```
+<p align="left">
+<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+</p>
+```
+
+<p align="left">
+<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+</p>
+
+```
+<p align="center">
+<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+</p>
+```
+
+<p align="center">
+<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+</p>
+
+```
+<p align="right">
+<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+</p>
+```
+
+<p align="right">
+<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+</p>
+
+```
+<h3 align="center"> My latest Medium posts </h3>
+```
+
+<h3 align="center"> My latest Medium posts </h3>
+
+
+# Tables
+
+```
+<table>
+<tr>
+<td width="33%"">
+The quick brown fox jumps over the lazy dog.
+</td>
+<td width="33%">
+The quick brown fox jumps over the lazy dog.
+</td>
+<td width="33%">
+The quick brown fox jumps over the lazy dog.
+</td>
+</tr>
+</table>
+```
+
+<table>
+<tr>
+<td width="33%"">
+The quick brown fox jumps over the lazy dog.
+</td>
+<td width="33%">
+The quick brown fox jumps over the lazy dog.
+</td>
+<td width="33%">
+The quick brown fox jumps over the lazy dog.
+</td>
+</tr>
+</table>
+
+
+
+```
+| Default | Left align | Center align | Right align |
+| - | :- | :-: | -: |
+| 9999999999 | 9999999999 | 9999999999 | 9999999999 |
+| 999999999 | 999999999 | 999999999 | 999999999 |
+| 99999999 | 99999999 | 99999999 | 99999999 |
+| 9999999 | 9999999 | 9999999 | 9999999 |
+
+
+| Default    | Left align | Center align | Right align |
+| ---------- | :--------- | :----------: | ----------: |
+| 9999999999 | 9999999999 | 9999999999   | 9999999999  |
+| 999999999  | 999999999  | 999999999    | 999999999   |
+| 99999999   | 99999999   | 99999999     | 99999999    |
+| 9999999    | 9999999    | 9999999      | 9999999     |
+
+
+Default    | Left align | Center align | Right align
+---------- | :--------- | :----------: | ----------:
+9999999999 | 9999999999 | 9999999999   | 9999999999 
+999999999  | 999999999  | 999999999    | 999999999  
+99999999   | 99999999   | 99999999     | 99999999   
+9999999    | 9999999    | 9999999      | 9999999 
+```
+
+| Default | Left align | Center align | Right align |
+| - | :- | :-: | -: |
+| 9999999999 | 9999999999 | 9999999999 | 9999999999 |
+| 999999999 | 999999999 | 999999999 | 999999999 |
+| 99999999 | 99999999 | 99999999 | 99999999 |
+| 9999999 | 9999999 | 9999999 | 9999999 |
+
+
+| Default    | Left align | Center align | Right align |
+| ---------- | :--------- | :----------: | ----------: |
+| 9999999999 | 9999999999 | 9999999999   | 9999999999  |
+| 999999999  | 999999999  | 999999999    | 999999999   |
+| 99999999   | 99999999   | 99999999     | 99999999    |
+| 9999999    | 9999999    | 9999999      | 9999999     |
+
+
+Default    | Left align | Center align | Right align
+---------- | :--------- | :----------: | ----------:
+9999999999 | 9999999999 | 9999999999   | 9999999999 
+999999999  | 999999999  | 999999999    | 999999999  
+99999999   | 99999999   | 99999999     | 99999999   
+9999999    | 9999999    | 9999999      | 9999999 
+
+
+```
+<table>
+<tr>
+<th>Heading 1</th>
+<th>Heading 2</th>
+</tr>
+<tr>
+
+<td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td><td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td></tr> </table>
+```
+
+<table>
+<tr>
+<th>Heading 1</th>
+<th>Heading 2</th>
+</tr>
+<tr>
+
+<td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td><td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td></tr> </table>
+
+```
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 <br/> 4 <br/> 5 |
+```
+
+| A | B | C |
+|---|---|---|
+| 1 | 2 | 3 <br/> 4 <br/> 5 |
+
+
+```
+<table>
+<tr>
+<th>Before Hoisting</th>
+<th>After Hoisting</th>
+</tr>
+<tr>
+<td>
+<pre lang="js">
+console.log(fullName); // undefined
+fullName = "Dariana Trahan";
+console.log(fullName); // Dariana Trahan
+var fullName;
+</pre>
+</td>
+<td>
+<pre lang="js">
+var fullName;
+console.log(fullName); // undefined
+fullName = "Dariana Trahan";
+console.log(fullName); // Dariana Trahan
+</pre>
+</td>
+</tr>
+</table>
+```
+
+<table>
+<tr>
+<th>Before Hoisting</th>
+<th>After Hoisting</th>
+</tr>
+<tr>
+<td>
+<pre lang="js">
+console.log(fullName); // undefined
+fullName = "Dariana Trahan";
+console.log(fullName); // Dariana Trahan
+var fullName;
+</pre>
+</td>
+<td>
+<pre lang="js">
+var fullName;
+console.log(fullName); // undefined
+fullName = "Dariana Trahan";
+console.log(fullName); // Dariana Trahan
+</pre>
+</td>
+</tr>
+</table>
+
+# Links
+
+```
+[The-Ultimate-Markdown-Cheat-Sheet](https://github.com/PARTIDOSSR/SERVICIOS_SR)
+```
+
+[The-Ultimate-Markdown-Cheat-Sheet](https://github.com/PARTIDOSSR/SERVICIOS_SR)
+
+```
+[The-Ultimate-Markdown-Cheat-Sheet][reference text]
+
+[The-Ultimate-Markdown-Cheat-Sheet][1]
+
+[Markdown-Cheat-Sheet]
+
+[reference text]: https://github.com/PARTIDOSSR/SERVICIOS_SR
+[1]: https://github.com/PARTIDOSSR/SERVICIOS_SR
+[Markdown-Cheat-Sheet]: https://github.com/PARTIDOSSR/SERVICIOS_SR
+```
+
+[The-Ultimate-Markdown-Cheat-Sheet][reference text]
+
+[The-Ultimate-Markdown-Cheat-Sheet][1]
+
+[Markdown-Cheat-Sheet]
+
+[reference text]: https://github.com/PARTIDOSSR/SERVICIOS_SR
+[1]: https://github.com/PARTIDOSSR/SERVICIOS_SR
+[Markdown-Cheat-Sheet]: https://github.com/PARTIDOSSR/SERVICIOS_SR
+
+
+```
+[Example of a relative link](rl.md)
+```
+
+[Example of a relative link](rl.md)
+
+
+Visit https://github.com/
+
+# Images
+
+```
+![alt text](https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80)
+```
+
+![alt text](https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80)
+
+```
+![alt text][image]
+
+[image]: https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80
+```
+![alt text][image]
+
+[image]: https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80
+
+```
+<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+```
+
+<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+
+
+<img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
+
+<img src="https://img.shields.io/badge/theultimatemarkdowncheatsheet-brightgreen.svg" />
+
+# Lists
+
+```
+1. One
+2. Two
+3. Three
+```
+
+1. One
+2. Two
+3. Three
+
+```
+1. First level
+    1. Second level
+        - Third level
+            - Fourth level
+2. First level
+    1. Second level
+3. First level
+    1. Second level
+```
+
+
+1. First level
+    1. Second level
+        - Third level
+            - Fourth level
+2. First level
+    1. Second level
+3. First level
+    1. Second level
+    
+
+
+```
+* 1
+* 2
+* 3
+
++ 1
++ 2
++ 3
+
+
+- 1
+- 2
+- 3
+```
+
+* 1
+* 2
+* 3
+
++ 1
++ 2
++ 3
+
+
+- 1
+- 2
+- 3
+
+
+```
+- First level
+    - Second level
+        - Third level
+            - Fourth level
+- First level
+    - Second level
+- First level
+    - Second level
+```
+
+- First level
+    - Second level
+        - Third level
+            - Fourth level
+- First level
+    - Second level
+- First level
+    - Second level
+
+```
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+</ul>
+```
+
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+<li>Fourth item</li>
+</ul>
+
+```
+- [x] Fix Bug 223
+- [ ] Add Feature 33
+- [ ] Add unit tests
+```
+
+- [x] Fix Bug 223
+- [ ] Add Feature 33
+- [ ] Add unit tests
+
+# Buttons
+
+```
+<kbd>cmd + shift + p</kbd>
+```
+
+<kbd>cmd + shift + p</kbd>
+
+```
+<kbd> <br> cmd + shift + p <br> </kbd>
+```
+
+<kbd> <br> cmd + shift + p <br> </kbd>
+
+```
+<kbd>[Markdown-Cheatsheet](https://github.com/PARTIDOSSR/SERVICIOS_SR)</kbd>
+```
+
+<kbd>[Markdown-Cheatsheet](https://github.com/PARTIDOSSR/SERVICIOS_SR)</kbd>
+
+```
+[<kbd>Markdown-Cheatsheet</kbd>](https://github.com/PARTIDOSSR/SERVICIOS_SR)
+```
+
+[<kbd>Markdown-Cheatsheet</kbd>](https://github.com/PARTIDOSSR/SERVICIOS_SR)
+
+# Collapsible items (28 July 2023)
+
+
+```
+<details>
+  <summary>Markdown</summary>
+
+-  <kbd>[Markdown Editor](https://binarytree.dev/me)</kbd>
+-  <kbd>[Table Of Content](https://binarytree.dev/toc)</kbd>
+-  <kbd>[Markdown Table Generator](https://binarytree.dev/md_table_generator)</kbd>
+
+</details>
+```
+
+<details>
+  <summary>Markdown</summary>
+
+-  <kbd>[Markdown Editor](https://binarytree.dev/me)</kbd>
+-  <kbd>[Table Of Content](https://binarytree.dev/toc)</kbd>
+-  <kbd>[Markdown Table Generator](https://binarytree.dev/md_table_generator)</kbd>
+
+</details>
+
+
+
+
+# Horizontal Rule
+
+```
+---
+***
+___
+```
 
 ---
 
-Hyphens
-
 ***
-
-Asterisks
 
 ___
 
-Underscores
-Three or more...
+# Diagrams (19 July 2022)
 
-Hyphens
 
-Asterisks
+```
+pie
+"Movies" : 80
+"TV shows" : 20
+```
 
-Underscores
+          
+```mermaid
+pie
+"Movies" : 80
+"TV shows" : 20
+```
 
-Line Breaks
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit <Enter> once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
+# Mathematical expressions (19 July 2022)
 
-Here are some things to try out:
+```
+This is an inline math expression $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+```
+          
+This is an inline math expression $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+          
+```
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+```
 
-Here's a line for us to start with.
+$$
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}
+$$
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+# Alerts (8 January 2024)
 
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-Here's a line for us to start with.
 
-This line is separated from the one above by two newlines, so it will be a separate paragraph.
+```
+> [!NOTE]  
+> Essential details that users should not overlook, even when browsing quickly.
 
-This line is also begins a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the same paragraph.
+> [!TIP]
+> Additional advice to aid users in achieving better outcomes.
 
-(Technical note: Markdown Here uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
+> [!IMPORTANT]  
+> Vital information required for users to attain success.
 
-YouTube Videos
-They can't be added directly but you can add an image with a link to the video like this:
+> [!WARNING]  
+> Urgent content that requires immediate user focus due to possible risks.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-Or, in pure Markdown, but losing the image sizing and border:
+> [!CAUTION]
+> Possible negative outcomes resulting from an action.
+```
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-TeX Mathematical Formulae
-A full description of TeX math symbols is beyond the scope of this cheatsheet. Here's a good reference, and you can try stuff out on CodeCogs. You can also play with formulae in the Markdown Here options page.
 
-Here are some examples to try out:
+> [!NOTE]  
+> Essential details that users should not overlook, even when browsing quickly.
 
-$-b \pm \sqrt{b^2 - 4ac} \over 2a$
-$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
-$\forall x \in X, \quad \exists y \leq \epsilon$
-The beginning and ending dollar signs ($) are the delimiters for the TeX markup.
+> [!TIP]
+> Additional advice to aid users in achieving better outcomes.
+
+> [!IMPORTANT]  
+> Vital information required for users to attain success.
+
+> [!WARNING]  
+> Urgent content that requires immediate user focus due to possible risks.
+
+> [!CAUTION]
+> Possible negative outcomes resulting from an action.
+
+          
+# Miscellaneous
+
+<!--
+Lorem ipsum dolor sit amet
+-->
+
+```
+*   Asterisk
+\   Backslash
+`   Backtick
+{}  Curly braces
+.   Dot
+!   Exclamation mark
+#   Hash symbol
+-   Hyphen symbol
+()  Parentheses
++   Plus symbol
+[]  Square brackets
+_   Underscore`
+```
+
+*   Asterisk
+\   Backslash
+`   Backtick
+{}  Curly braces
+.   Dot
+!   Exclamation mark
+#   Hash symbol
+-   Hyphen symbol
+()  Parentheses
++   Plus symbol
+[]  Square brackets
+_   Underscore
+
+
+```
+\*   Asterisk
+\\   Backslash
+\`   Backtick
+\{}  Curly braces
+\.   Dot
+\!   Exclamation mark
+\#   Hash symbol
+\-   Hyphen symbol
+\()  Parentheses
+\+   Plus symbol
+\[]  Square brackets
+\_   Underscore
+```
+
+\*   Asterisk
+\\   Backslash
+\`   Backtick
+\{}  Curly braces
+\.   Dot
+\!   Exclamation mark
+\#   Hash symbol
+\-   Hyphen symbol
+\()  Parentheses
+\+   Plus symbol
+\[]  Square brackets
+\_   Underscore
+
+```
+:octocat:
+```
+
+:octocat:
+
+[Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
+
+```
+@Mquiros84
+```
+
+@Mquiros84
+
+```
+#
+```
+
+\#
+
+Back to top
+
+First place the following code at start of your markdown file
+
+```
+<a name="top"/>
+```
+
+Then use one of the following code at the place you want to return to top.
+
+[Back to top](#top)
+
+[:arrow_up:](#top)
+
+
+```
+[Back to top](#top)
+
+[:arrow_up:](#top)
+```
