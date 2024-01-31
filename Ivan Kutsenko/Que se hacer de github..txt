@@ -1,9 +1,0 @@
-Que se hacer de github.
-Un repositorio.
-Una branch.
-Realizar el pull and push.
-Clonar ficheros en VS.
-Realizar un commit.
-Realizar un merge commit.
-Actualizar los ficheros.
-Que hacer en caso de que nuetros cambios en un fichero coincidan en la misma linea que este ocupada.
