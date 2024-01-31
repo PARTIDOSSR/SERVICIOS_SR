@@ -1,10 +1,10 @@
 # SERVICIOS_SR
 
-##Pagina de empleo 2023
+## Pagina de empleo 2023
 
 https://www.getmanfred.com/developer-career-report
 
-##CAMPO DE ENTRENAMIENTO
+## CAMPO DE ENTRENAMIENTO
 
 PortSwigger Web Security: Ofrece formación en seguridad web con laboratorios prácticos y desafíos interactivos. 
 Hack The Box: Plataforma de entrenamiento en ciberseguridad con retos realistas y entornos de pruebas de penetración.
@@ -22,7 +22,7 @@ Cohackers: Mejora de habilidades de ciberseguridad con desafíos de codificació
 OWASP Juice Shop: Aplicación web vulnerable para practicar habilidades de seguridad web. 
 
 
-##Paginas sobre cyberseguridad
+## Paginas sobre cyberseguridad
 
 HackerOne: Una plataforma líder que ayuda a las organizaciones a encontrar y solucionar vulnerabilidades críticas.
 Bugcrowd: Basada en San Francisco, ofrece una plataforma de bug bounty para la gestión de vulnerabilidades.
@@ -33,7 +33,7 @@ Synack: Ofrece una plataforma de pruebas de seguridad cibernética crowdsourcing
 Intigriti: Una plataforma de hacking ético y bug bounty que opera principalmente en la Unión Europea.
 Topcoder: Una comunidad de crowdsourcing en línea con más de 1 millón de desarrolladores, diseñadores y científicos de datos.
 
-##CONFERENCIAS DE CYBERSEGURIDAD Y EVENTOS
+## CONFERENCIAS DE CYBERSEGURIDAD Y EVENTOS
 
 NAVAJANEGRA - OCTUBRE 
 
