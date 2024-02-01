@@ -4,15 +4,67 @@ Deberás escribir tu nombre y tu contraseña, pero para ello debes estar previam
 
 Ahora escribe el siguiente comando en tu terminal PWD:
 
-docker run -dp 80:80 docker/getting-started:pwd
 
-Espera a que inicie el contenedor y haz clic en el botón del puerto 80.
+Vamos a crear en nuestro repositorio dos ficheros 
 
-En Play with Docker  vamos a utilizar este comando:
+Primer fichero 
 
-git clone https://github.com/jmlcas-docker
+#### crear fichero dockerfile con  
+```
+ FROM nginx:latest
 
-Ahora solo nos queda poner la aplicación en marcha con el comando habitual:
+ COPY index.html /usr/share/nginx/html
+ COPY pio.png /usr/share/nginx/html
 
-docker-compose up -d
+ EXPOSE 80 443     
 
+ CMD ["nginx", "-g", "daemon off;"]
+```
+#### crear fichero index.html con vuestro index
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Este es mi primer sitio web con SMR </title>
+  <h1>Prueba de funcionamiento contenedor docker</h1>
+</head>
+<body>
+<h1> Mi primer sitio web con SMR</h1>
+<p> Esta página está en construcción </p>
+</body>
+</html>
+```
+Ejecutar 
+```
+DOCKERID="TUNOMBREGIT"
+```
+```
+echo $DOCKERID
+```
+#### podeis clonar el mio pero luego lo tendreis que modificar en maquina
+```
+git clone https://github.com/maquce69/docker-ejemplos.git
+```
+```
+git clone "NUESTRO REPOSITORIO"
+```
+#### Si se ha creado en un directorio  meteros en vuestro git y revisar con un "ls" que este todo
+En el path devuestro git ejecuar la composicion
+
+#### Crear
+```
+docker build -t $DOCKERID/web:1.0 .
+```
+#### Arrancarlo
+```
+docker run container --detach --publish 80:80 --name servidor_web  $DOCKERID/web:1.0
+```
+
+```
+docker run -d -p 80:80 --name servidor_web $DOCKERID/quirosweb:0.2
+```
+#### Matarlo
+```
+docker rm --force quiros_web
+```
