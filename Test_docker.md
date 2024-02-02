@@ -15,7 +15,7 @@ Primer fichero
  FROM nginx:latest
 
  COPY index.html /usr/share/nginx/html
- COPY pio.png /usr/share/nginx/html
+ #COPY pio.png /usr/share/nginx/html
 
  EXPOSE 80 443     
 
@@ -54,17 +54,18 @@ git clone "NUESTRO REPOSITORIO"
 En el path devuestro git ejecuar la composicion
 
 #### Crear
-```
 docker build -t $DOCKERID/web:1.0 .
+```
+docker build -t miidgit/web:1.0 .
 ```
 #### Arrancarlo
 
 ```
-docker run -d -p 80:80 --name servidor_web $DOCKERID/quirosweb:0.2
+docker run -d -p 80:80 --name servidor_web miidgit/web:1.0
 ```
 #### Matarlo
 ```
-docker rm --force quiros_web
+docker rm --force servidor_web
 ```
 # Prueba mario bros
 ```
