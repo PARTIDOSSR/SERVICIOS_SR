@@ -7,6 +7,9 @@ https://www.getmanfred.com/developer-career-report
 # Maquina online de Kali linux
 https://www.onworks.net/es/os-distributions/debian-based/free-kali-linux-online
 
+## descargar ISO de Kali linux fiable 
+https://www.techspot.com/downloads/downloadnow/6738/?evp=7e087af1ea8b1811d5744556949f14ef&file=8533
+
 ## CAMPO DE ENTRENAMIENTO
 
 - PortSwigger Web Security: Ofrece formación en seguridad web con laboratorios prácticos y desafíos interactivos. 
