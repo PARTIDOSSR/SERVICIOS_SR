@@ -1,4 +1,5 @@
 Inicia sesión en [play-with-docker](https://labs.play-with-docker.com/) para acceder a tu terminal PWD.
+Con copiar https://training.play-with-docker.com/beginner-linux/#Task_2
 
 Deberás escribir tu nombre y tu contraseña, pero para ello debes estar previamente registrado en Docker.
 
