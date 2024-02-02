@@ -68,7 +68,7 @@ docker run -d -p 80:80 --name servidor_web $DOCKERID/quirosweb:0.2
 ```
 docker rm --force quiros_web
 ```
-#prueba mario bros
+# Prueba mario bros
 ```
 docker run -d -p 8600:8080 pengbai/docker-supermario
 ```
