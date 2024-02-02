@@ -57,9 +57,6 @@ En el path devuestro git ejecuar la composicion
 docker build -t $DOCKERID/web:1.0 .
 ```
 #### Arrancarlo
-```
-docker run container --detach --publish 80:80 --name servidor_web  $DOCKERID/web:1.0
-```
 
 ```
 docker run -d -p 80:80 --name servidor_web $DOCKERID/quirosweb:0.2
