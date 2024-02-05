@@ -1,5 +1,20 @@
 # SERVICIOS_SR
 
+## Maquinas virtuales 
+
+Inicia sesión en play-with-docker para acceder a tu terminal PWD. 
+
+## Laboratorios 
+### 1
+https://training.play-with-docker.com/ops-s1-hello/
+### 2
+https://training.play-with-docker.com/beginner-linux/#Task_2
+### 3
+https://training.play-with-docker.com/ops-s1-swarm-intro/
+
+
+# Seguridad 
+
 ## Pagina para saber si nuestras cuentas han sido expuestas 
 
 https://haveibeenpwned.com/
