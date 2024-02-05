@@ -4,7 +4,8 @@
 
 Inicia sesión en play-with-docker para acceder a tu terminal PWD. 
 
-## Laboratorios 
+## Laboratorios Docker 
+
 ### 1
 https://training.play-with-docker.com/ops-s1-hello/
 ### 2
