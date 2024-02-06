@@ -1,6 +1,6 @@
 # MySQL
 
-
+Solo web de ekemplo 
 https://hub.docker.com/_/mysql
 
 
@@ -21,6 +21,25 @@ Vuelve a crear los contenedores de MySQL y de PHPMyAdmin con los mismos comandos
 ```
 docker run --name=db -p 3306:3306 -v mysql-volume:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:8
 ```
+
+## Ver las BBDD
+```
+docker exec -it db -db mysql -p
+```
+```
+mysql> create database demo;
+```
+# SOLUCION BUENA
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| demo               |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
 ```
 docker run --name=my-admin -p 80:80 -v phpmyadmin-volume:/etc/phpmyadmin/config.user.inc.php --link db:db -d phpmyadmin
 ```
