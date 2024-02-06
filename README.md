@@ -3,6 +3,7 @@
 ## Maquinas virtuales 
 
 Inicia sesión en play-with-docker para acceder a tu terminal PWD. 
+https://labs.play-with-docker.com/
 
 ## Laboratorios Docker 
 
