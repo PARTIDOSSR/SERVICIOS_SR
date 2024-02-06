@@ -12,7 +12,7 @@ Descargar la imagen y arrancar una mysql y ver las tablas base dentro del conten
 
 Crea un par de volumenes para MySQL y para PHPMyAdmin respectivamente por medio de los siguientes comandos 
 ```
-docker volume create mysql-volume y
+docker volume create mysql-volume
 ```
 ```
 docker volume create phpmyadmin-volume
