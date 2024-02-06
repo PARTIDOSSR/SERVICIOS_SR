@@ -24,7 +24,7 @@ docker run --name=db -p 3306:3306 -v mysql-volume:/var/lib/mysql -e MYSQL_ROOT_P
 
 ## Ver las BBDD
 ```
-docker exec -it db -db mysql -p
+docker exec -it db mysql -p
 ```
 ```
 mysql> create database demo;
