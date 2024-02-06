@@ -24,7 +24,7 @@ docker run --name=db -p 3306:3306 -v mysql-volume:/var/lib/mysql -e MYSQL_ROOT_P
 ```
 docker run --name=my-admin -p 80:80 -v phpmyadmin-volume:/etc/phpmyadmin/config.user.inc.php --link db:db -d phpmyadmin
 ```
-Crea una nueva base de datos con algunas tablas y registros por medio del contenedor de MySQL y el cliente CLI de MySQL dentro del mismo, o bien, por medio de la interfaz de PHPMyAdmin a través de http://localhost:82/
+Crea una nueva base de datos con algunas tablas y registros por medio del contenedor de MySQL y el cliente CLI de MySQL dentro del mismo, o bien, por medio de la interfaz de PHPMyAdmin a través de http://localhost:80/
 Una vez que confirmes que los registros que agregaste existen en la DB, procede a detener y a borrar los contenedores en ejecución utilizando los siguientes comandos
 ```
 docker stop db my-admin
