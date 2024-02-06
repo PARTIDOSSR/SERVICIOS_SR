@@ -67,7 +67,3 @@ docker run -d -p 80:80 --name servidor_web miidgit/web:1.0
 ```
 docker rm --force servidor_web
 ```
-# Prueba mario bros
-```
-docker run -d -p 8600:8080 pengbai/docker-supermario
-```
