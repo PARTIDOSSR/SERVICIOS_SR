@@ -39,6 +39,10 @@ https://www.techspot.com/downloads/downloadnow/6738/?evp=7e087af1ea8b1811d574455
 
 https://hub.docker.com/r/appsecco/dvna
 
+# Wordpress
+
+https://hub.docker.com/r/bitnami/wordpress/
+
 ## CAMPO DE ENTRENAMIENTO
 
 - PortSwigger Web Security: Ofrece formación en seguridad web con laboratorios prácticos y desafíos interactivos. 
