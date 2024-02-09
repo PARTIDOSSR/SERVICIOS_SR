@@ -219,7 +219,7 @@ Para realizar este ejemplo vamos a utilizar el ejemplo que hemos usado para crea
 ```
 mkdir github-dockerhub
 cd github-dockerhub
-ssh-keygen -t rsa -C "mario.ezquerro@gmail.com"
+ssh-keygen -t rsa -C "@gmail.com"
 # copiar la /Users/your_user_directory/.ssh/id_rsa.pub en github -> ![ver](./imagenes/github-ssh-up.png)
 # verificamos
 ssh git@github.com
