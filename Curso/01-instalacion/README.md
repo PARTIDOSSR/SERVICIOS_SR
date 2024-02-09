@@ -1,14 +1,7 @@
----
-title: Usando Docker introduccion
-description: Aprendemos a usar docker.
-author: Mario Ezquerro
-tags: Docker, Introduccion
-date_published: 2019-05-10
----
+
 
 # Un poco de Historia
 
-CC por [Bartolomé Sintes Marco](http://www.mclibre.org/consultar/webapps/index.html)
 
 [Docker](https://www.docker.com) es un sistema de virtualización de aplicaciones mediante contenedores, creado por Solomon Hykes y otros ingenieros. En 2013 se convirtió en un proyecto de software libre (licencia Apache) en el que participan cada vez más empresas. La versión 1.0 se publicó en junio de 2014 y ha tenido un desarrollo muy rápido.
 
