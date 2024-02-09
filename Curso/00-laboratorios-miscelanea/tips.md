@@ -1,10 +1,4 @@
----
-title: Usando Docker introduccion
-description: Aprendemos a usar docker.
-author: Mario Ezquerro
-tags: Docker, 
-date_published: 2019-05-10
----
+
 
 # Actualizar /etc/hosts con todos los contenedores docker que hay en ejecución
 

@@ -1,10 +1,4 @@
----
-title: Usando Docker Mejorando
-description: Nivel medio Creaccion de contenedores.
-author: Mario Ezquerro
-tags: Docker
-date_published: 2019-05-10
----
+
 
 
 # Ejemplo practico

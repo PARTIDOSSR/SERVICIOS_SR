@@ -1,10 +1,4 @@
----
-title: Usando Docker Redes
-description: Aprendemos a usar docker y redes.
-author: Mario Ezquerro
-tags: Docker, 
-date_published: 2019-05-10
----
+
 
 # Gestion de red en  Contendores
 

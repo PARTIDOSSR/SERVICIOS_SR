@@ -1,10 +1,4 @@
----
-title: Usando Conexión
-description: Aprendemos a usar docker.
-author: Mario Ezquerro
-tags: Docker, 
-date_published: 2019-05-10
----
+
 
 ### Configuración de TLS (cont.) [cc](https://raw.githubusercontent.com/macknilan/Cuaderno/master/Docker/Docker.md)
 

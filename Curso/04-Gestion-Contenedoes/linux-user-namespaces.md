@@ -1,10 +1,4 @@
----
-title: Usando Docker Namespaces
-description: Aprendemos a usar docker.
-author: Mario Ezquerro
-tags: Docker, namespaces
-date_published: 2019-05-10
----
+
 
 # Usando Linux namespaces en el mapeo de volúmenes Docker.
 

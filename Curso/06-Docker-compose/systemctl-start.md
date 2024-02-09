@@ -1,10 +1,4 @@
----
-title: Usando Docker  auto inicio con systemd
-description: Aprendemos iniciar docker con systemd
-author: Mario Ezquerro
-tags: Docker, systemd
-date_published: 2019-05-10
----
+
 
 # Introducción Docker-compose auto arranque
 

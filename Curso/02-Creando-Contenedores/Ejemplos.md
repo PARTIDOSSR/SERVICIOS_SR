@@ -1,10 +1,4 @@
----
-title: Usando Docker
-description: Aprendemos a usar docker con ejemplos.
-author: Mario Ezquerro
-tags: Docker, 
-date_published: 2019-05-10
----
+
 
 # Ejemplos de Wordpress
 
