@@ -1,10 +1,4 @@
----
-title: Usando Docker  los volumenes y las imagenes
-description: Aprendemos a usar docker.
-author: Mario Ezquerro
-tags: Docker, 
-date_published: 2019-05-10
----
+
 
 # volumenes
 
