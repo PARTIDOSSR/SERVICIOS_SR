@@ -1,10 +1,4 @@
----
-title: Usando Docker introduccion
-description: Aprendemos a usar docker.
-author: Mario Ezquerro
-tags: Docker, Introduccion
-date_published: 2019-06-06
----
+
 
 # Usamos Promotheus:
 
