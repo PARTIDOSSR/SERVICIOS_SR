@@ -1,10 +1,4 @@
----
-title: Usando Docker  gestión de contenedores
-description: Aprendemos a usar docker y sus comandos.
-author: Mario Ezquerro
-tags: Docker, 
-date_published: 2019-05-10
----
+
 
 # Gestion de Contendores
 
