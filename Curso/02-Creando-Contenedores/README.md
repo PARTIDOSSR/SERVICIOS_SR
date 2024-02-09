@@ -1,10 +1,3 @@
----
-title: Usando Docker 
-description: Aprendemos a  Crear contenedores usando docker.
-author: Mario Ezquerro
-tags: Docker, 
-date_published: 2019-05-10
----
 
 # Docker Building
 
