@@ -1,10 +1,3 @@
----
-title: Usando Docker  Swarm
-description: Aprendemos a usar docker swarm
-author: Mario Ezquerro
-tags: Docker, 
-date_published: 2019-05-10
----
 
 # Docker Swarm
 
