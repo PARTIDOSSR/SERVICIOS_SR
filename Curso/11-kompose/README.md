@@ -1,11 +1,3 @@
----
-title: Kompose, Como pasar de Docker Compose a Kubernetes
-description: Como usar Kompose
-author:
-tags: Docker, 
-date_published: 2019-07-22
----
-
 # Kompose
 
 Kompose, una herramienta que permite:
