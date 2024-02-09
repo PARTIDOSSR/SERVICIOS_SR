@@ -353,7 +353,7 @@ $ docker image build --help
       Ejemplo de uso:
       ```
          FROM alpine:latest
-         LABEL maintainer="Russ McKendrick <russ@mckendrick.io>"
+         
          LABEL description="This example Dockerfile installs Apache & PHP."
          
          ENV PHPVERSION 7

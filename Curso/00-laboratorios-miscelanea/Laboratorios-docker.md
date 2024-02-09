@@ -58,7 +58,7 @@ $ cd apache
 En ese directorio vamos a crear un fichero **Dockerfile**, con el siguiente contenido:
 ```
 FROM debian
-MAINTAINER Mario Ezquerro "mario.ezquerro@gmail.com"
+
 
 RUN apt-get update && apt-get install -y apache2 && apt-get clean && rm -rf /var/lib/apt/lists/*
 
@@ -157,7 +157,7 @@ exec /usr/sbin/mysqld
 El fichero Dockerfile tendrá el siguiente contenido:
 ```
 FROM ubuntu:14.04 
-MAINTAINER José Domingo Muñoz "josedom24@gmail.com"
+
 
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y mysql-server
@@ -192,7 +192,7 @@ En este último ejemplo, vamos a crear una imagen con php5 a partir de nuestra i
 Y el fichero **Dockerfile**, con el siguiente contenido:
 ```
 FROM marioezquerro:1.0
-MAINTAINER Mario Ezquerro "mario.ezquerro@gmail.com"
+
 
 RUN apt-get update && apt-get install -y php5 && apt-get clean && rm -rf /var/lib/apt/lists/*
 
@@ -228,8 +228,8 @@ git init
 # copiamos los ficheros
 # tiene que estar el repositorio en github.
 git add *
-git config --global user.email "mario.ezquerro@gmail.com"
-git config --global user.name "Mario Ezquerro"
+git config --global user.email "@gmail.com"
+git config --global user.name "M"
 git commit -m "Initial import"
 git remote add origin git@github.com:wbugbofh/github-dockerhub.git
 git push origin master
