@@ -1,8 +1,8 @@
 ## WIFI
 - WiFi 4 (802.11n).
-DUAL 2.4 y 5 MH 
+DUAL 2.4 y 5 GHz
 - WiFi 5 (802.11ac).
-SOLO en 5 MH
+SOLO en 5 GHz
 - WiFi 6 (802.11ax).
   
 ![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/637fbd42-0b91-4deb-806b-f4b81e2b0f91)
@@ -15,6 +15,24 @@ Ya que hemos visto cómo funciona la tecnología WiFi 6 deberíamos tener una id
 - Menor saturación gracias a que dispone de las bandas 2,4 GHz y 5 GHz y ofrece una mayor cantidad de canales.
 - Ahorra la energía de dispositivos conectados.
 - Navegación segura con el cifrado WPA3.
+
+## Antenas (MIM0)
+
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/7cd49194-7851-4ddd-a917-c8758964ab06)
+### Reparto de conexion 
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/b0472239-3299-43e9-8555-9e1b223dae1d)
+
+SU-MIMO
+- WiFi 4 (802.11n).
+
+MU-MIMO
+- WiFi 5 (802.11ac). (DEPENDE DEL MODELO)
+- WiFi 6 (802.11ax). (en 2.4 GHz no en todos)
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/987bebc5-4f5f-4ccf-a14b-8cf23b1228d8)
+
+
+## Backhaul (MIM0)
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/0246e48c-7ccc-4f45-8c14-96ae03b1278b)
 
 
 ### WIFI MESH
