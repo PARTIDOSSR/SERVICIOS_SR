@@ -21,3 +21,8 @@ https://www.youtube.com/watch?v=m0-U8HhRppg
 
 
 ![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/b64c093a-4a19-4440-b084-e76c729d1e12)
+
+
+# Diagrama
+
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/ce646e62-f367-49f8-8a15-a06f9651c172)
