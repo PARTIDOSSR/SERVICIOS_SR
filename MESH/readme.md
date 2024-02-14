@@ -1,9 +1,15 @@
+## BANDAS
+Una banda se divide en canales, por lo que la de 2.4 GHz tiene 11 con 20 MHz cada uno; la de 5 GHz trae 45 canales con 40 u 80 MHz cada uno; la banda de 6 GHz puede con 60 canales, pero en Wi-Fi 6E el ancho llega a 160 MHz cada uno. Pues bien, con Wi-Fi 7 es capaz de admitir canales de hasta 320 MHz.
+
+¿Por qué importa los MHz de cada canal? Porque conforme es más ancho, más datos se transmiten. Siempre se coge como ejemplo la autovía con carriles o las aceras de pueblo vs la de ciudad. Al final, cuanto más ancho sea, más capacidad tiene de acoger datos para ser transmitidos.
+
+
 ## WIFI
-- WiFi 4 (802.11n).
+- WiFi 4 (802.11n)
 DUAL 2.4 y 5 GHz
-- WiFi 5 (802.11ac).
+- WiFi 5 (802.11ac)
 SOLO en 5 GHz
-- WiFi 6 (802.11ax).
+- WiFi 6 (802.11ax)
   
 ![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/637fbd42-0b91-4deb-806b-f4b81e2b0f91)
 
@@ -15,6 +21,14 @@ Ya que hemos visto cómo funciona la tecnología WiFi 6 deberíamos tener una id
 - Menor saturación gracias a que dispone de las bandas 2,4 GHz y 5 GHz y ofrece una mayor cantidad de canales.
 - Ahorra la energía de dispositivos conectados.
 - Navegación segura con el cifrado WPA3.
+----------------------------------------
+- Wi-Fi 7 (802.11be) (DUPLICA TODO)
+- Wi-Fi Sensing (802.11bf)
+---------------------------------------
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/36b48d70-1171-4235-84ec-59b637f8bd6a)
+
+  
+
 
 ## Antenas (MIM0)
 
