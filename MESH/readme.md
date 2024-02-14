@@ -4,7 +4,9 @@ DUAL 2.4 y 5 MH
 - WiFi 5 (802.11ac).
 SOLO en 5 MH
 - WiFi 6 (802.11ax).
-  ![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/637fbd42-0b91-4deb-806b-f4b81e2b0f91)
+  
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/637fbd42-0b91-4deb-806b-f4b81e2b0f91)
+
 ### Ventajas de la tecnología WiFi 6
 Ya que hemos visto cómo funciona la tecnología WiFi 6 deberíamos tener una idea de cuáles son sus ventajas. Por lo tanto, a continuación exponemos un pequeño listado:
 
