@@ -18,10 +18,12 @@
 
 ![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/ecaf600e-824e-466e-bd05-37c76deb6b32)
 
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/75e3a44a-7614-4baa-a4a9-8ad82bb6b846)
 
 # Sitios de compras 
 
 https://esphome.io/index.html
+
 
 
 
