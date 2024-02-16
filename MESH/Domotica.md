@@ -16,6 +16,8 @@
 ![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/68d2068c-75c7-40cd-98df-0c081d8af60c)
 
 
+![image](https://github.com/PARTIDOSSR/SERVICIOS_SR/assets/156792027/ecaf600e-824e-466e-bd05-37c76deb6b32)
+
 
 # Sitios de compras 
 
