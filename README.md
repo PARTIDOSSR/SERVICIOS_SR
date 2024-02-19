@@ -20,28 +20,30 @@ https://training.play-with-docker.com/ops-s1-swarm-intro/
 
 
 # Seguridad 
-
-## Pagina para saber si nuestras cuentas han sido expuestas 
-
+#### Enlaces interesantes 
+Pagina para saber si nuestras cuentas han sido expuestas 
 https://haveibeenpwned.com/
-
-## Pagina de empleo 2023
-
+#### Pagina de empleo 2023
 https://www.getmanfred.com/developer-career-report
-
-# Maquina online de Kali linux
+#### Maquina online de Kali linux
 https://www.onworks.net/es/os-distributions/debian-based/free-kali-linux-online
-
-## descargar ISO de Kali linux fiable 
+#### descargar ISO de Kali linux fiable 
 https://www.techspot.com/downloads/downloadnow/6738/?evp=7e087af1ea8b1811d5744556949f14ef&file=8533
-
-# Contenedor de pruebas OWASP
-
+#### Contenedor de pruebas OWASP
 https://hub.docker.com/r/appsecco/dvna
-
-# Wordpress
-
+#### Wordpress
 https://hub.docker.com/r/bitnami/wordpress/
+
+---------------------------------------------------------------------------------
+
+# "Plataformas para aprender ciberseguridad" https://www.welivesecurity.com/es/antimalware-day/plataformas-aprender-ciberseguridad/
+
+- 🎓 C1b34Wall Academy https://c1b3rwallacademy.usal.es/2022-2023/ 
+- 🎓 Cybrary https://www.cybrary.it
+- 🎓 EC - Council https://www.eccouncil.org/
+- 🎓 Coursera https://www.coursera.org/
+- 🎓 Academia ESET https://www.academiaeset.com/
+- 🎓 hack4u https://hack4u.io/
 
 ## CAMPO DE ENTRENAMIENTO
 
